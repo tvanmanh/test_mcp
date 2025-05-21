@@ -1,0 +1,25 @@
+{
+  "servers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/manhtran/Desktop",
+        "/Users/manhtran/Downloads"
+      ],
+      "type": "stdio",
+      "env": {}
+    },
+    "github": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-github"
+        ],
+        "env": {
+          "GITHUB_PERSONAL_ACCESS_TOKEN": "***REDACTED***"
+        }
+      }
+  }
+}
