@@ -20,6 +20,13 @@
         "env": {
           "GITHUB_PERSONAL_ACCESS_TOKEN": "***REDACTED***"
         }
-      }
+      },
+    "puppeteer": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-puppeteer"
+      ]
+    }
   }
 }
